@@ -55,3 +55,10 @@ Dataset – sample supply chain data (orders, products, warehouses, shipments)
 ![WhatsApp Image 2025-09-05 at 01 30 23_26bd483d](https://github.com/user-attachments/assets/ed77dacd-96fd-4042-8559-7935c724e5fe)
 
  🔹 Shipment Management
+ ## 👥 Authors  
+
+- **Dityaraj Singh**  
+- **Pranav Khairnar**  
+
+We collaborated equally on all aspects of this project, including **data modeling with SQL**, database setup, Power BI dashboard design, KPI development, and documentation.  
+
