@@ -32,3 +32,13 @@ CREATE TABLE shipments (
 );
 
 -- Invent
+CREATE DATABASE IF NOT EXISTS supply_chain;
+USE supply_chain;
+
+CREATE TABLE demo_orders (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    customer_name VARCHAR(100),
+    order_date DATE,
+    amount DECIMAL(10,2)
+);
+
