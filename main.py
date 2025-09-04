@@ -1,7 +1,15 @@
 import pymysql
 
-def test_connection():
-    print("Python + SQL integrated project running!")
+def connect():
+    connection = pymysql.connect(
+        host="localhost",
+        user="root",
+        password="password",
+        database="supply_chain"
+    )
+    print("✅ Connected to MySQL")
+    return connection
 
 if __name__ == "__main__":
-    test_connection()
+    conn = connect()
+    conn.close()
